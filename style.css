@@ -1,3 +1,12 @@
+/* ==========================================
+   style.css
+   These are the final styles for the project.
+   Author:   Saddam Arbaa
+   Website:  TODO
+			========================================== */
+
+/*====== creating My own Framework for some repeated styles(Main Rulez) ======*/
+
 :root {
   --grey: #343436;
 }
@@ -49,7 +58,7 @@ h6 {
   border: 1px solid black;
 }
 
-/* Editor */
+/*====== Editor ======*/
 
 .code {
   display: grid;
@@ -75,10 +84,12 @@ h6 {
   display: grid;
   grid-template-columns: auto 1fr;
 }
+
 .editor__number {
   display: block;
   padding: 0 10px;
 }
+
 .editor__input {
   resize: none;
   background: none;
@@ -87,7 +98,7 @@ h6 {
   line-height: 19px;
 }
 
-/* Pen Header */
+/*====== Pen Header ======*/
 
 .pen {
   display: grid;
@@ -105,7 +116,7 @@ h6 {
   display: grid;
 }
 
-/* Buttons */
+/*====== Buttons ======*/
 
 .button {
   background-color: var(--grey);
@@ -133,7 +144,7 @@ h6 {
   position: absolute;
 }
 
-/* footer(settings) */
+/*======footer(settings)  ======*/
 
 .settings {
   padding: 5px;

@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recreating Codepen!</title>
-  <link rel="stylesheet" href="style.css">
+<!-- Required meta tag -->
+<meta charset="UTF-8">
+<meta name="description" content="Responsive Website!">
+<meta name="keywords" content="CSS Grid, Responsive, Website">
+<meta name="author" content="Saddam Arbaa">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- title -->
+<title>Recreating Codepen!</title>
+<!-- CSS File -->
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <!--(.codepen) is the main container -->
   <div class="codepen">
+
     <header class="pen">
       <div class="pen__details">
         <h1>Some Amazing Pen Name</h1>
@@ -22,6 +26,7 @@
       <button class="button">👀 Change View</button>
       <img src="sadam.jpg" alt="Saddam Arbaa" height="44">
     </header>
+
     <section class="code">
       <div class="editor">
         <header class="editor__header">
@@ -33,7 +38,6 @@
           <div class="editor__gutter">
             <span class="editor__number">1</span>
           </div>
-
           <textarea class="editor__input"><p>Oh Hey There!</p></textarea>
         </div>
       </div>
@@ -49,13 +53,8 @@
             <span class="editor__number">2</span>
             <span class="editor__number">3</span>
           </div>
-
-          <textarea class="editor__input">.codepen {
-  is: cool;
-}
-          </textarea>
+          <textarea class="editor__input">.codepen { is: cool;} </textarea>
         </div>
-
       </div>
       <div class="editor">
         <header class="editor__header">
@@ -69,12 +68,13 @@
           </div>
           <textarea class="editor__input">const wes = 'coolest';</textarea>
         </div>
-
       </div>
     </section>
+
     <section class="preview">
       <iframe src="https://css-tricks.com" frameborder="0"></iframe>
     </section>
+
     <footer class="settings">
       <button class="button button--small button--black">Console</button>
       <button class="button button--small button--black">Assets</button>
